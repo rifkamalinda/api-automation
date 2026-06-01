@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="goRestProject.runners.TestRunner" time="3.513" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rifka\Downloads\api-automation\api-automation\target\test-classes;C:\Users\rifka\Downloads\api-automation\api-automation\target\classes;C:\Users\rifka\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\rifka\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\rifka\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\rifka\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\rifka\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\rifka\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rifka\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\rifka\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\rifka\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\rifka\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\rifka\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\rifka\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\rifka\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\rifka\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\rifka\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\rifka\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\rifka\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\rifka\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rifka\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\rifka\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-java\7.32.0\cucumber-java-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-core\7.32.0\cucumber-core-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-gherkin\7.32.0\cucumber-gherkin-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.32.0\cucumber-gherkin-messages-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\rifka\.m2\repository\io\cucumber\query\14.6.0\query-14.6.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\tag-expressions\8.0.0\tag-expressions-8.0.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.1\cucumber-json-formatter-0.3.1.jar;C:\Users\rifka\.m2\repository\io\cucumber\datatable\7.32.0\datatable-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-plugin\7.32.0\cucumber-plugin-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\docstring\7.32.0\docstring-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\html-formatter\22.1.0\html-formatter-22.1.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\rifka\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-testng\7.32.0\cucumber-testng-7.32.0.jar;C:\Users\rifka\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\rifka\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\rifka\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\rifka\AppData\Local\Temp\surefire14351495625184533215\surefirebooter-20251125014514110_3.jar C:\Users\rifka\AppData\Local\Temp\surefire14351495625184533215 2025-11-25T01-45-13_973-jvmRun1 surefire-20251125014514110_1tmp surefire_0-20251125014514110_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\rifka\Downloads\api-automation\api-automation\target\test-classes;C:\Users\rifka\Downloads\api-automation\api-automation\target\classes;C:\Users\rifka\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\rifka\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\rifka\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\rifka\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\rifka\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\rifka\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rifka\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\rifka\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\rifka\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\rifka\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\rifka\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\rifka\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\rifka\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\rifka\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\rifka\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\rifka\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\rifka\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\rifka\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rifka\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\rifka\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-java\7.32.0\cucumber-java-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-core\7.32.0\cucumber-core-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-gherkin\7.32.0\cucumber-gherkin-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.32.0\cucumber-gherkin-messages-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\rifka\.m2\repository\io\cucumber\query\14.6.0\query-14.6.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\tag-expressions\8.0.0\tag-expressions-8.0.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.1\cucumber-json-formatter-0.3.1.jar;C:\Users\rifka\.m2\repository\io\cucumber\datatable\7.32.0\datatable-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-plugin\7.32.0\cucumber-plugin-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\docstring\7.32.0\docstring-7.32.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\html-formatter\22.1.0\html-formatter-22.1.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\rifka\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\rifka\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rifka\.m2\repository\io\cucumber\cucumber-testng\7.32.0\cucumber-testng-7.32.0.jar;C:\Users\rifka\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\rifka\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\rifka\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rifka"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\rifka\Downloads\api-automation\api-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\rifka\AppData\Local\Temp\surefire14351495625184533215\surefirebooter-20251125014514110_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="rifka"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\rifka\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\rifka\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\rifka\Downloads\api-automation\api-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Users\rifka\AppData\Local\Microsoft\WindowsApps;C:\Users\rifka\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\rifka\AppData\Roaming\npm;C:\Users\rifka\AppData\Local\Programs\Microsoft VS Code\bin;c:\Users\rifka\.vscode\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;create a new user successfully&quot;, &quot;Create user&quot;](1)" classname="goRestProject.runners.TestRunner" time="2.586">
+    <system-out><![CDATA[
+Scenario: create a new user successfully                         # src/test/java/goRestProject/feature/create_user.feature:3
+  ✔ Given I prepare a valid user payload                         # goRestProject.stepDefinition.CreateUserSteps.i_prepare_a_valid_user_payload()
+  ✔ When I call create user API                                  # goRestProject.stepDefinition.CreateUserSteps.i_call_create_user_api()
+  ✔ Then the response status should be 201                       # goRestProject.stepDefinition.CreateUserSteps.the_response_status_should_be(java.lang.Integer)
+  ✔ And the response time should be less than configured timeout # goRestProject.stepDefinition.CreateUserSteps.the_response_time_should_be_less_than_configured_timeout()
+  ✔ And the response body should contain name "rifkaM"           # goRestProject.stepDefinition.CreateUserSteps.the_response_body_should_contain_name(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

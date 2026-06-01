@@ -1,0 +1,4 @@
+goRestProject\api\UserApi.class
+goRestProject\runners\TestRunner.class
+goRestProject\stepDefinition\CreateUserSteps.class
+goRestProject\utils\RequestSpecFactory.class
