@@ -24,7 +24,7 @@ public class CreateUserSteps {
 
         payload = new HashMap<>();
         payload.put("email", email);
-        payload.put("name", "rifkaM");
+        payload.put("name", "rifkamalinda");
         payload.put("gender", "female");
         payload.put("status", "active");
     }
